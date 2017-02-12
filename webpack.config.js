@@ -41,8 +41,8 @@ module.exports = {
         ? false
         : "inline-source-map",
     entry: {
-        index: "./src/index.ts",
-        "test/test": ["babel-polyfill", "./src/test/test.ts"]
+        index: ["core-js", "./src/index.ts"],
+        "test/test": ["core-js", "./src/test/test.ts"]
     },
     externals: /^(?!\.)/,
     module: tsModule({ node: 6 }),
