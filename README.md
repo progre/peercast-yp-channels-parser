@@ -1,5 +1,8 @@
-peercast-yp-channels-parser [![Build Status](https://travis-ci.org/progre/peercast-yp-channels-parser.svg?branch=master)](https://travis-ci.org/progre/peercast-yp-channels-parser)
+peercast-yp-channels-parser
 ====
+
+[![npm package](https://img.shields.io/npm/v/peercast-yp-channels-parser.svg?style=flat)](https://www.npmjs.org/package/peercast-yp-channels-parser)
+[![Build Status](https://travis-ci.org/progre/peercast-yp-channels-parser.svg?branch=master)](https://travis-ci.org/progre/peercast-yp-channels-parser)
 
 A parser for PeerCast yellowpages channels.
 
