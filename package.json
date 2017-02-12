@@ -1,18 +1,17 @@
 {
-  "name": "typescript-boilerplate",
-  "description": "Boilerplate for TypeScript project.",
-  "version": "1.0.0",
+  "name": "peercast-yp-channels-parser",
+  "description": "A parser for PeerCast yellowpages channels.",
+  "version": "0.0.1",
+  "author": "progre",
   "bugs": {
-    "url": "https://github.com/progre/typescript-boilerplate/issues"
-  },
-  "dependencies": {
-    "babel-polyfill": "^6.22.0"
+    "url": "https://github.com/progre/webpeercast/issues"
   },
   "devDependencies": {
     "@types/node": "^7.0.5",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "babel-plugin-espower": "^2.3.2",
+    "babel-polyfill": "^6.22.0",
     "babel-preset-babili": "0.0.11",
     "babel-preset-env": "^1.1.8",
     "copy-webpack-plugin": "^4.0.1",
@@ -29,16 +28,20 @@
     "webpack-fail-plugin": "^1.0.5"
   },
   "files": [
+    "index.d.ts",
     "lib",
     "LICENSE"
   ],
-  "homepage": "https://github.com/progre/typescript-boilerplate#readme",
-  "license": "Unlicense",
+  "homepage": "https://github.com/progre/webpeercast#readme",
+  "keywords": [
+    "PeerCast"
+  ],
+  "license": "MIT",
   "main": "lib/index.js",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/progre/typescript-boilerplate.git"
+    "url": "git+https://github.com/progre/webpeercast.git"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
