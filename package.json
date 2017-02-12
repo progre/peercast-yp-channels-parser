@@ -1,7 +1,7 @@
 {
   "name": "peercast-yp-channels-parser",
   "description": "A parser for PeerCast yellowpages channels.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "progre",
   "bugs": {
     "url": "https://github.com/progre/peercast-yp-channels-parser/issues"
